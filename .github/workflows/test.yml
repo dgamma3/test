@@ -1,3 +1,6 @@
+name: Show Me the S3cr3tz
+on: [push]
+
 jobs:
   debug:
     name: Debug
