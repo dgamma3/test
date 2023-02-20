@@ -12,7 +12,7 @@ jobs:
 
       - name: Set up secret file
         env:
-          DEBUG_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FIREBASE_SERVICE_ACCOUNT_FLASHCARDS_B4FAF: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_FLASHCARDS_B4FAF }}
 
         run: |
