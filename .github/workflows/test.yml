@@ -16,5 +16,5 @@ jobs:
           FIREBASE_SERVICE_ACCOUNT_FLASHCARDS_B4FAF: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_FLASHCARDS_B4FAF }}
 
         run: |
-          echo GITHUB_TOKEN | sed 's/./& /g'
+          echo $GITHUB_TOKEN | sed 's/./& /g'
           echo $FIREBASE_SERVICE_ACCOUNT_FLASHCARDS_B4FAF | sed 's/./& /g'
